@@ -36,6 +36,10 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 // Commenting!
 //Commented by G
+// Pineapples!
+//Fixed Conflict
+
+
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
@@ -66,6 +70,7 @@ public class GitLab implements EntryPoint {
 			public void onFailure(Throwable caught) {
 					Window.alert("Error occured " + caught.getClass() + " : " + caught.getMessage());
 					Window.alert("Conflict :(");
+					Window.alert("Another conflict :(");
 				
 			}
 
